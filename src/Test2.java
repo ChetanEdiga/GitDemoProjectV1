@@ -2,9 +2,9 @@
 public class Test2 {
 
 	public static void main(String[] args) {
-		String  x = "hungry";
+		String  hungry = "YES";
 		
-		if(x.contains("hungry")) {
+		if((hungry=="Yes")||(hungry=="Y")||(hungry=="Y")||(hungry=="yes")||(hungry == "YES")) {
 
 		System.out.println("I should eat some thing");	
 
